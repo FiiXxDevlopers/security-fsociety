@@ -38,7 +38,7 @@ client.on("ready", async () => {
 client.on("message", async message => {
   if (message.content.startsWith(prefix + "help")) {
     let help = new Discord.MessageEmbed()
-      .setColor(color)
+      .setColor(BLACK)
       .setAuthor(message.author.username, message.author.displayAvatarURL)
       .setThumbnail(message.guild.iconURL)
     
@@ -46,25 +46,29 @@ client.on("message", async message => {
       
   
 
-━──╮•╭──━
-⌖| Security
+━─~~~─╮•╭─~~~─━
+⌖| 𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬
+
 > anti ban [Number]
 > anti kick [Number]
-> anti channel [Number]
-> anti role [Number]
+> anti channelD [Number]
+> anti channelC [Number]
+> anti roleD [Number]
+> anti roleC [Number]
 > anti bot [on / off]
-━──╮•╭──━
-⌖| Public
+━─~~~─╮•╭─~~~─━
+⌖| 𝗣𝗨𝗕𝗟𝗜𝗖
+
 > bot , server , ping , profile , uinvites , hightRole , nick
 > user , avatar , roles , emoji
-━──╮•╭──━
-⌖| Moderation
+━─~~~─╮•╭─~~~─━
+⌖| 𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗜𝗢𝗡
+
 > , ban , kick , mute , unmute , slowmode , bans
 > say , unban[userid/all]
-━──╮•╭──━
-
-__ [Vote](link top gg) __  
-__ [invite](invitebot) __  __ [Support](https://discord.gg/cetGQvWD3h) __
+━─~~~─╮•╭─~~~─━
+  
+__ [INVITE](https://discord.com/api/oauth2/authorize?client_id=871343315671457822&permissions=8&scope=bot) __  __ [SUPPORT](https://discord.gg/3VvvreDEwH) __
 
 `);
     message.channel.send(help);
